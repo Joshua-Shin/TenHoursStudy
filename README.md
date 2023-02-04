@@ -27,7 +27,7 @@ TenHoursStudy : 개인 웹 애플리케이션 개발 프로젝트
 - H2, Jpa, Web, Lombok, Thymeleaf, DevTools
 
 #### Frontend
-- HTML5, CSS3
+- HTML5, CSS3, Bootstrap(4.5)
 
 #### Tools
 - IntelliJ, GitHub, VSCode,
@@ -48,7 +48,12 @@ TenHoursStudy : 개인 웹 애플리케이션 개발 프로젝트
     - [ ] form 페이지 만들기. name, email, comment 적어서 submit 하면 내 메일로 보내지게.
 
 -------------------
-### 고민중...
+#### 개념 메모
+- Bootstrap 홈페이지에서 간단한 템플릿 같은건 가져다 쓰면 좋겠네. 반응형으로 짜기도 편하고.
+- 네비게이션바 같은건 여러 페이지에다가 길게 복붙할게 아니라, thymeleaf 기능 이용해서 th:fragment을 활용하면 깔끔하네.
+
+
+#### 고민중...
 - 결국 내가 원하는 형태까지 가려면 스프링부트 프로젝트는 EC2에 넣어야 되고, DB는 RDS로 해야되고, github의 Travis CI와 AWS의 CodeDeploy로 배포해야된다는거네.
   thymeleaf랑 웹MVC 익혀서 일단 로컬에서 돌아가는 게시판 만들어. 그리고 그걸 AWS로 올리고, 후에 static.html을 스프링부트 프로젝트에 통합시키면 되잖아.
 - 아.. 이래서 CI/CD가 필요한거네.
