@@ -1,5 +1,7 @@
-TenHoursStudy : 개인 웹 애플리케이션 개발 프로젝트
---------------
+# TenHoursStudy : 개인 웹 애플리케이션 개발 프로젝트
+
+- 해당 프로젝트는 static 웹 사이트 만으로도 '하루 10시간 공부 챌린지를 성공하기 위한 가이드를 제시'해주는 사이트의 목적을 충분히 달성한다고 판단되어 더 이상의 개발을 **종료**합니다.
+- 처음 프로젝트 목적중 하나였던 '웹 개발의 전체 라이프 사이클 경험'은 ['나만의 블로그 개발 프로젝트'](https://github.com/Joshua-Shin/joshualog)에서 진행하기로 결정하였습니다.
 - 현재 배포중인 Static 웹 사이트
     - https://joshua-shin.github.io/TenHoursStudyHtml
     - [저장소](https://github.com/Joshua-Shin/TenHoursStudyHtml)
@@ -48,7 +50,7 @@ TenHoursStudy : 개인 웹 애플리케이션 개발 프로젝트
     - [ ] form 페이지 만들기. name, email, comment 적어서 submit 하면 내 메일로 보내지게.
 
 -------------------
-#### 개념 메모
+#### 메모
 - Bootstrap 홈페이지에서 간단한 템플릿 같은건 가져다 쓰면 좋겠네. 반응형으로 짜기도 편하고.
 - 네비게이션바 같은건 여러 페이지에다가 길게 복붙할게 아니라, thymeleaf 기능 이용해서 th:fragment을 활용하면 깔끔하네.
 
